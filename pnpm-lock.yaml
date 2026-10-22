@@ -5910,8 +5910,8 @@ importers:
         specifier: v0.58.0-beta.3
         version: 0.58.0-beta.3(2bad87e8d13f7ca8cc1722de93123b14)
       '@perses-dev/stat-chart-plugin':
-        specifier: v0.13.0-rc.1
-        version: 0.13.0-rc.1(739ac65d3ad846d405df8a1fc31eca19)
+        specifier: 0.15.0
+        version: 0.15.0(@emotion/react@11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@hookform/resolvers@3.10.0(react-hook-form@7.88.0(react@18.3.1)))(@perses-dev/components@0.54.0(b91eebfe7fcdaeb9c33f3c676f726676))(@perses-dev/plugin-system@0.54.0(0e86414737cfda25bfb0e330a279ff18))(date-fns-tz@3.2.0(date-fns@4.4.0))(date-fns@4.4.0)(immer@10.2.0)(lodash@4.18.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(use-resize-observer@9.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@perses-dev/table-plugin':
         specifier: v0.13.0-rc.1
         version: 0.13.0-rc.1(d5015d94851d591d827f4607857b349c)
@@ -8804,23 +8804,22 @@ packages:
   '@perses-dev/spec@0.2.0':
     resolution: {integrity: sha512-0SukMq7kzYBni670E+uSSebr8LzQP4PdgUUli9HVU2FsDTrby5rJ3KjgoGRbCtGJNCB/fmeWGx57ZlfFohvwog==}
 
-  '@perses-dev/stat-chart-plugin@0.13.0-rc.1':
-    resolution: {integrity: sha512-aqcpg//i0qpIPoWN+inbjMw7f9WdoU/RftGA8ZQAW7+K4WhrWlaPxYFyYGiBQmNzHXshptJpKXSKzhyvVUjrLQ==}
+  '@perses-dev/stat-chart-plugin@0.15.0':
+    resolution: {integrity: sha512-cbcESb8s+2p2aDRsiIGXXpRozaO78aadhXKp13p+oVM+znFxIhUVkCCNR3lRru9bjAeduPH/kDpErZovAuSktQ==}
     peerDependencies:
       '@emotion/react': ^11.7.1
       '@emotion/styled': ^11.6.0
-      '@hookform/resolvers': ^3.2.0
-      '@mui/material': ^6.1.10
-      '@perses-dev/components': ^0.54.0-rc.1
-      '@perses-dev/plugin-system': ^0.54.0-rc.1
-      '@perses-dev/spec': ^0.2.0-rc.0
+      '@hookform/resolvers': ^5.9.1
+      '@perses-dev/components': ^0.55.0
+      '@perses-dev/plugin-system': ^0.55.0
+      '@perses-dev/spec': ^0.3.0
       date-fns: ^4.1.0
       date-fns-tz: ^3.2.0
       echarts: 5.5.0
       immer: ^10.1.1
       lodash: ^4.17.21
-      react: ^17.0.2 || ^18.0.0
-      react-dom: ^17.0.2 || ^18.0.0
+      react: ^18.3.0
+      react-dom: ^18.3.0
       use-resize-observer: ^9.0.0
 
   '@perses-dev/table-plugin@0.13.0-rc.1':
@@ -21288,15 +21287,13 @@ snapshots:
       mathjs: 15.2.0
       zod: 3.25.76
 
-  '@perses-dev/stat-chart-plugin@0.13.0-rc.1(739ac65d3ad846d405df8a1fc31eca19)':
+  '@perses-dev/stat-chart-plugin@0.15.0(@emotion/react@11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@hookform/resolvers@3.10.0(react-hook-form@7.88.0(react@18.3.1)))(@perses-dev/components@0.54.0(b91eebfe7fcdaeb9c33f3c676f726676))(@perses-dev/plugin-system@0.54.0(0e86414737cfda25bfb0e330a279ff18))(date-fns-tz@3.2.0(date-fns@4.4.0))(date-fns@4.4.0)(immer@10.2.0)(lodash@4.18.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(use-resize-observer@9.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@emotion/react': 11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1)
       '@emotion/styled': 11.14.1(@emotion/react@11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1)
       '@hookform/resolvers': 3.10.0(react-hook-form@7.88.0(react@18.3.1))
-      '@mui/material': 6.5.0(@emotion/react@11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@perses-dev/components': 0.54.0(b91eebfe7fcdaeb9c33f3c676f726676)
       '@perses-dev/plugin-system': 0.54.0(0e86414737cfda25bfb0e330a279ff18)
-      '@perses-dev/spec': 0.2.0
       chroma-js: 3.2.0
       date-fns: 4.4.0
       date-fns-tz: 3.2.0(date-fns@4.4.0)
