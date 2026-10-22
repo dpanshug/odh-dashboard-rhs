@@ -5,7 +5,7 @@ go 1.26.5
 require (
 	github.com/opendatahub-io/odh-platform-utilities v0.4.0
 	github.com/opendatahub-io/odh-platform-utilities/framework v0.1.0
-	github.com/opendatahub-io/operator-chaos v0.0.0-20260521100204-4dab974d613c
+	github.com/opendatahub-io/operator-chaos v0.0.0-20261015153727-b2cefd573398
 	github.com/openshift/api v3.9.0+incompatible
 	github.com/stretchr/testify v1.12.1
 	gopkg.in/yaml.v3 v3.0.1
@@ -16,6 +16,7 @@ require (
 	k8s.io/streaming v0.36.2
 	sigs.k8s.io/controller-runtime v0.24.1
 	sigs.k8s.io/gateway-api v1.4.0
+	sigs.k8s.io/yaml v1.6.0
 )
 
 require (
@@ -110,5 +111,4 @@ require (
 	sigs.k8s.io/kustomize/kyaml v0.21.1 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.4.0 // indirect
-	sigs.k8s.io/yaml v1.6.0 // indirect
 )
