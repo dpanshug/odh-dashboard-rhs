@@ -38,14 +38,16 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  RENOVATE_APP_LOGIN: odh-dashboard-agent[bot]
+  # Upstream is pinned to the app; a fork rehearsing with a personal token
+  # sets the RENOVATE_APP_LOGIN repo variable to that token's login.
+  RENOVATE_APP_LOGIN: ${{ github.repository == 'opendatahub-io/odh-dashboard' && 'odh-dashboard-agent[bot]' || vars.RENOVATE_APP_LOGIN || 'odh-dashboard-agent[bot]' }}
 
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     if: >-
-      github.event.pull_request.user.login == 'odh-dashboard-agent[bot]' &&
+      github.event.pull_request.user.login == (github.repository == 'opendatahub-io/odh-dashboard' && 'odh-dashboard-agent[bot]' || vars.RENOVATE_APP_LOGIN || 'odh-dashboard-agent[bot]') &&
       github.event.pull_request.head.repo.full_name == github.repository &&
       startsWith(github.event.pull_request.head.ref, 'renovate/') &&
       (github.event.action != 'labeled' || startsWith(github.event.label.name, 'renovate/')) &&
