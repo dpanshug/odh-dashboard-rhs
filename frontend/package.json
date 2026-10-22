@@ -132,7 +132,7 @@
     "@odh-dashboard/tsconfig": "workspace:*",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.17",
     "@rsdoctor/rspack-plugin": "^1.6.1",
-    "@rspack/cli": "2.1.10",
+    "@rspack/cli": "2.2.8",
     "@rspack/core": "2.2.4",
     "@rspack/dev-server": "^2.1.0",
     "@rspack/plugin-react-refresh": "^2.0.2",
