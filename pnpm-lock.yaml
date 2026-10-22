@@ -5907,8 +5907,8 @@ importers:
         specifier: ^0.54.0-beta.10
         version: 0.54.0(0e86414737cfda25bfb0e330a279ff18)
       '@perses-dev/prometheus-plugin':
-        specifier: v0.58.0-beta.3
-        version: 0.58.0-beta.3(2bad87e8d13f7ca8cc1722de93123b14)
+        specifier: 0.59.0
+        version: 0.59.0(684d50de4593435d8c9c204158bbc6a6)
       '@perses-dev/stat-chart-plugin':
         specifier: v0.13.0-rc.1
         version: 0.13.0-rc.1(739ac65d3ad846d405df8a1fc31eca19)
@@ -8708,6 +8708,11 @@ packages:
   '@perses-dev/client@0.54.0':
     resolution: {integrity: sha512-AxTo1PQnhRwBlmDyiSo1bK/ttzktByyaLlLmzKv7VtA7Np/rtakV0vhbvDWlk13272zZ+IO6b5nR2jR2KcLBAA==}
 
+  '@perses-dev/client@0.55.0':
+    resolution: {integrity: sha512-ptT1EK5R2ZrwQGvgtjNjX8N6Qy+ETU+bjNxBhTFPwN6cllaSPsUJtmeuJQPcVaiVu0QnskXW000LofdBXPt30g==}
+    peerDependencies:
+      react: ^18.3.0
+
   '@perses-dev/components@0.54.0':
     resolution: {integrity: sha512-/ZxrB6j+BK3t62o97T4Oab1O9xTnrvOkddoAjPMmAtNXgfZvCJ8Jkjq9RHY263iiaQilk6xDxHXKP/mNTJ/Tyg==}
     peerDependencies:
@@ -8776,33 +8781,35 @@ packages:
       react: ^17.0.2 || ^18.0.0
       react-dom: ^17.0.2 || ^18.0.0
 
-  '@perses-dev/prometheus-plugin@0.58.0-beta.3':
-    resolution: {integrity: sha512-wd2onXHKVETILdIlElsGUBpHl+HES5vjUf1YC9cPn5+H3XkKS7Zc2bY1wLLME6bvKTWhrJ9YTEyQA9WiL8uELA==}
+  '@perses-dev/prometheus-plugin@0.59.0':
+    resolution: {integrity: sha512-1z9idq2bv5m3/m92n2EcPTteW2Jty5bSAWqLAvphlNSG0iLS5Pk1K0jszJlY8O7+xmYqDvqcr/HYl+owdnQDwQ==}
     peerDependencies:
       '@emotion/react': ^11.7.1
       '@emotion/styled': ^11.6.0
-      '@hookform/resolvers': ^3.2.0
-      '@mui/material': ^6.1.10
-      '@perses-dev/client': ^0.54.0-beta.8
-      '@perses-dev/components': ^0.54.0-beta.8
-      '@perses-dev/dashboards': ^0.54.0-beta.8
-      '@perses-dev/explore': ^0.54.0-beta.8
-      '@perses-dev/plugin-system': ^0.54.0-beta.8
-      '@perses-dev/spec': ^0.2.0-beta.6
+      '@hookform/resolvers': ^5.9.1
+      '@perses-dev/client': ^0.55.0
+      '@perses-dev/components': ^0.55.0
+      '@perses-dev/dashboards': ^0.55.0
+      '@perses-dev/explore': ^0.55.0
+      '@perses-dev/plugin-system': ^0.55.0
+      '@perses-dev/spec': ^0.3.0
       '@tanstack/react-query': ^4.39.1
       date-fns: ^4.1.0
       date-fns-tz: ^3.2.0
       echarts: 5.5.0
       immer: ^10.1.1
       lodash: ^4.17.21
-      react: ^17.0.2 || ^18.0.0
-      react-dom: ^17.0.2 || ^18.0.0
-      react-hook-form: ^7.52.2
+      react: ^18.3.0
+      react-dom: ^18.3.0
+      react-hook-form: ^7.87.0
       react-router-dom: ^7.18.3
       use-resize-observer: ^9.0.0
 
   '@perses-dev/spec@0.2.0':
     resolution: {integrity: sha512-0SukMq7kzYBni670E+uSSebr8LzQP4PdgUUli9HVU2FsDTrby5rJ3KjgoGRbCtGJNCB/fmeWGx57ZlfFohvwog==}
+
+  '@perses-dev/spec@0.3.0':
+    resolution: {integrity: sha512-MxLqAioEQZ+0GQmc8rJMDVVw4buTlYwhnyYPz+9g+7e5gLZ8ve8lfxUJQlz4iHY62JmFfbqEX0iSRUEQI4Iyng==}
 
   '@perses-dev/stat-chart-plugin@0.13.0-rc.1':
     resolution: {integrity: sha512-aqcpg//i0qpIPoWN+inbjMw7f9WdoU/RftGA8ZQAW7+K4WhrWlaPxYFyYGiBQmNzHXshptJpKXSKzhyvVUjrLQ==}
@@ -8895,8 +8902,8 @@ packages:
   '@posthog/types@1.404.1':
     resolution: {integrity: sha512-i2Gei6ARfOSBeTN4s2yUP1p97s2UNI+1NWmtLjhnR/V6t3RFOfI1sBWKcJNWHjtoOCCWoAFU+PNPY6SgT2VtEQ==}
 
-  '@prometheus-io/codemirror-promql@0.311.3':
-    resolution: {integrity: sha512-WgfC910pn/EHcwC9zRPwO8hGbT0G2eS5uvGi4GCAtKLY68SqfjIXaewvOMyR3avnIjoL7c45WpxkD5++df8omQ==}
+  '@prometheus-io/codemirror-promql@0.314.0':
+    resolution: {integrity: sha512-cAGR3RmohpkzeNPN6KGR6P1w8wtx06yoTELu45iufucn4LdhMAt+AZQYL7tvTuN3e2yDm2023FBx3LUFRSUCgg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@codemirror/autocomplete': ^6.4.0
@@ -8906,8 +8913,8 @@ packages:
       '@codemirror/view': ^6.4.0
       '@lezer/common': ^1.0.1
 
-  '@prometheus-io/lezer-promql@0.311.3':
-    resolution: {integrity: sha512-2MmOiYa4DNAkav12w8g5hSCZgGDEKFoT2Y6kqmhdhlXvP8zyACv3mx+wOqmJdkX0zLP0KZyjrQIOZtAXIHlnsA==}
+  '@prometheus-io/lezer-promql@0.314.0':
+    resolution: {integrity: sha512-UAacz1+s6fY5Mh7LEFJ76Ywno/jFLwpuHgZPFi7QBKosHdolxqpybbK11LNd8OXDDQNdoSlcKsohz913GbFNWw==}
     peerDependencies:
       '@lezer/highlight': ^1.1.2
       '@lezer/lr': ^1.2.3
@@ -14252,10 +14259,6 @@ packages:
 
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
-
-  lru-cache@11.5.2:
-    resolution: {integrity: sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==}
-    engines: {node: 20 || >=22}
 
   lru-cache@11.5.3:
     resolution: {integrity: sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==}
@@ -21008,6 +21011,12 @@ snapshots:
       '@perses-dev/spec': 0.2.0
       zod: 3.25.76
 
+  '@perses-dev/client@0.55.0(react@18.3.1)':
+    dependencies:
+      '@perses-dev/spec': 0.3.0
+      react: 18.3.1
+      zod: 4.6.5
+
   '@perses-dev/components@0.54.0(b91eebfe7fcdaeb9c33f3c676f726676)':
     dependencies:
       '@atlaskit/pragmatic-drag-and-drop': 1.8.1
@@ -21245,20 +21254,18 @@ snapshots:
       - vue-tsc
       - webpack
 
-  '@perses-dev/prometheus-plugin@0.58.0-beta.3(2bad87e8d13f7ca8cc1722de93123b14)':
+  '@perses-dev/prometheus-plugin@0.59.0(684d50de4593435d8c9c204158bbc6a6)':
     dependencies:
       '@emotion/react': 11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1)
       '@emotion/styled': 11.14.1(@emotion/react@11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1)
       '@hookform/resolvers': 3.10.0(react-hook-form@7.88.0(react@18.3.1))
-      '@mui/material': 6.5.0(@emotion/react@11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@nexucis/fuzzy': 0.5.1
-      '@perses-dev/client': 0.54.0
+      '@perses-dev/client': 0.55.0(react@18.3.1)
       '@perses-dev/components': 0.54.0(b91eebfe7fcdaeb9c33f3c676f726676)
       '@perses-dev/dashboards': 0.54.0(0e86414737cfda25bfb0e330a279ff18)
       '@perses-dev/explore': 0.54.0(0e86414737cfda25bfb0e330a279ff18)
       '@perses-dev/plugin-system': 0.54.0(0e86414737cfda25bfb0e330a279ff18)
-      '@perses-dev/spec': 0.2.0
-      '@prometheus-io/codemirror-promql': 0.311.3(@codemirror/autocomplete@6.20.3)(@codemirror/language@6.12.4)(@codemirror/lint@6.9.7)(@codemirror/state@6.7.1)(@codemirror/view@6.43.9)(@lezer/common@1.5.2)(@lezer/highlight@1.2.3)(@lezer/lr@1.4.10)
+      '@prometheus-io/codemirror-promql': 0.314.0(@codemirror/autocomplete@6.20.3)(@codemirror/language@6.12.4)(@codemirror/lint@6.9.7)(@codemirror/state@6.7.1)(@codemirror/view@6.43.9)(@lezer/common@1.5.2)(@lezer/highlight@1.2.3)(@lezer/lr@1.4.10)
       '@tanstack/react-query': 4.44.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       color-hash: 2.0.2
       date-fns: 4.4.0
@@ -21287,6 +21294,12 @@ snapshots:
       date-fns: 4.4.0
       mathjs: 15.2.0
       zod: 3.25.76
+
+  '@perses-dev/spec@0.3.0':
+    dependencies:
+      date-fns: 4.4.0
+      mathjs: 15.2.0
+      zod: 4.6.5
 
   '@perses-dev/stat-chart-plugin@0.13.0-rc.1(739ac65d3ad846d405df8a1fc31eca19)':
     dependencies:
@@ -21361,7 +21374,7 @@ snapshots:
 
   '@posthog/types@1.404.1': {}
 
-  '@prometheus-io/codemirror-promql@0.311.3(@codemirror/autocomplete@6.20.3)(@codemirror/language@6.12.4)(@codemirror/lint@6.9.7)(@codemirror/state@6.7.1)(@codemirror/view@6.43.9)(@lezer/common@1.5.2)(@lezer/highlight@1.2.3)(@lezer/lr@1.4.10)':
+  '@prometheus-io/codemirror-promql@0.314.0(@codemirror/autocomplete@6.20.3)(@codemirror/language@6.12.4)(@codemirror/lint@6.9.7)(@codemirror/state@6.7.1)(@codemirror/view@6.43.9)(@lezer/common@1.5.2)(@lezer/highlight@1.2.3)(@lezer/lr@1.4.10)':
     dependencies:
       '@codemirror/autocomplete': 6.20.3
       '@codemirror/language': 6.12.4
@@ -21369,13 +21382,13 @@ snapshots:
       '@codemirror/state': 6.7.1
       '@codemirror/view': 6.43.9
       '@lezer/common': 1.5.2
-      '@prometheus-io/lezer-promql': 0.311.3(@lezer/highlight@1.2.3)(@lezer/lr@1.4.10)
-      lru-cache: 11.5.2
+      '@prometheus-io/lezer-promql': 0.314.0(@lezer/highlight@1.2.3)(@lezer/lr@1.4.10)
+      lru-cache: 11.5.3
     transitivePeerDependencies:
       - '@lezer/highlight'
       - '@lezer/lr'
 
-  '@prometheus-io/lezer-promql@0.311.3(@lezer/highlight@1.2.3)(@lezer/lr@1.4.10)':
+  '@prometheus-io/lezer-promql@0.314.0(@lezer/highlight@1.2.3)(@lezer/lr@1.4.10)':
     dependencies:
       '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.10
@@ -28731,8 +28744,6 @@ snapshots:
       highlight.js: 11.11.2
 
   lru-cache@10.4.3: {}
-
-  lru-cache@11.5.2: {}
 
   lru-cache@11.5.3: {}
 
