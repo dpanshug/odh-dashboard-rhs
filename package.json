@@ -88,7 +88,7 @@
   "devDependencies": {
     "@module-federation/enhanced": "^0.24.1",
     "@odh-dashboard/eslint-config": "workspace:*",
-    "@rspack/cli": "2.1.10",
+    "@rspack/cli": "2.2.8",
     "@rspack/core": "2.2.4",
     "@rspack/dev-server": "^2.2.1",
     "@types/node": "^22.20.5",
@@ -106,7 +106,7 @@
     "turbo": "^2.11.9",
     "typescript": "^5.9.3",
     "wait-on": "^7.2.0",
-    "webpack": "5.104.1"
+    "webpack": "5.111.1"
   },
   "lint-staged": {
     "{,+([^.])*/**/}*.{js,ts,jsx,tsx,md}": [
