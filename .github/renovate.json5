@@ -217,6 +217,16 @@
       "enabled": false
     },
     {
+      // npm-style `overrides` blocks in individual package.json files are
+      // ignored by pnpm (only the root pnpm-workspace.yaml overrides apply),
+      // so bumping them changes nothing in the lockfile. Leftovers from the
+      // npm era; edit or remove them by hand.
+      "description": "Never touch per-package npm overrides (inert under pnpm)",
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["overrides"],
+      "enabled": false
+    },
+    {
       // These packages are pinned to an EXACT version in the root
       // pnpm-workspace.yaml `overrides` AND in many package.json files, and
       // must move together (by hand, like the PatternFly 6.6.1 bump in #9500).
