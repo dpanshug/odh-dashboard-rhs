@@ -25,7 +25,7 @@
     "cypress:server:e2e:wait": "wait-on -i 500 http-get://localhost:4040/api/health"
   },
   "devDependencies": {
-    "@cypress/code-coverage": "^3.12.34",
+    "@cypress/code-coverage": "^4.0.0",
     "@cypress/grep": "^4.1.0",
     "@odh-dashboard/app-config": "workspace:*",
     "@odh-dashboard/eslint-config": "workspace:*",

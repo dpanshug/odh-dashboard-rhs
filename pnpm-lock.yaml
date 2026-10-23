@@ -625,8 +625,8 @@ importers:
         specifier: ^7.29.7
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.7
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/webpack-preprocessor':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
@@ -1307,8 +1307,8 @@ importers:
         specifier: ^7.29.7
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.7
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@0.24.1))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@0.24.1))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/grep':
         specifier: ^4.1.1
         version: 4.1.1(@babel/core@7.29.7(supports-color@8.1.1))(cypress@15.20.1)(supports-color@8.1.1)
@@ -1674,8 +1674,8 @@ importers:
         specifier: ^7.21.5
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.7
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/webpack-preprocessor':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
@@ -2086,8 +2086,8 @@ importers:
         specifier: ^7.21.5
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.7
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/webpack-preprocessor':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
@@ -2467,8 +2467,8 @@ importers:
         specifier: ^7.21.5
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.7
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/webpack-preprocessor':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
@@ -2713,8 +2713,8 @@ importers:
   packages/cypress:
     devDependencies:
       '@cypress/code-coverage':
-        specifier: ^3.12.34
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/grep':
         specifier: ^4.1.0
         version: 4.1.1(@babel/core@7.29.7(supports-color@8.1.1))(cypress@15.20.1)(supports-color@8.1.1)
@@ -3373,8 +3373,8 @@ importers:
         specifier: ^7.21.5
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.7
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/webpack-preprocessor':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
@@ -3789,8 +3789,8 @@ importers:
         specifier: ^7.21.5
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.7
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/webpack-preprocessor':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
@@ -4162,8 +4162,8 @@ importers:
         specifier: ^7.27.1
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.1
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/webpack-preprocessor':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
@@ -4864,8 +4864,8 @@ importers:
         specifier: ^7.21.5
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.7
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/webpack-preprocessor':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
@@ -5240,8 +5240,8 @@ importers:
         specifier: ^7.21.5
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.7
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/webpack-preprocessor':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
@@ -5650,8 +5650,8 @@ importers:
         specifier: ^7.21.5
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@cypress/code-coverage':
-        specifier: ^3.14.7
-        version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
+        specifier: ^4.0.0
+        version: 4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/webpack-preprocessor':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
@@ -6805,15 +6805,6 @@ packages:
   '@csstools/css-tokenizer@3.0.4':
     resolution: {integrity: sha512-Vd/9EVDiu6PPJt9yAh6roZP6El1xHrdvIVGjyBsHR0RYwNHgL7FJPyIIW4fANJNG6FtyZfvlRPpFI4ZM/lubvw==}
     engines: {node: '>=18'}
-
-  '@cypress/code-coverage@3.14.7':
-    resolution: {integrity: sha512-0qk2aNKmrB0AwJtYSyK2+MWl/3NqDgZQ1OBSEh6oFnJwl/H2u3NTatV+FTCap22HTm+uxUS6SarU8gP9gFZ6Tw==}
-    peerDependencies:
-      '@babel/core': ^7.0.1
-      '@babel/preset-env': ^7.0.0
-      babel-loader: ^8.3 || ^9 || ^10
-      cypress: '*'
-      webpack: 5.104.1
 
   '@cypress/code-coverage@4.0.3':
     resolution: {integrity: sha512-Dsx95C6rPJrN7ruRyyh3xOy39iAmrLBclHdF+yiC7f8O1SIAOojplveBdFGj0EHf2I2ieNw7ZZpT3Qy1Fju0aA==}
@@ -11602,9 +11593,6 @@ packages:
   dateformat@4.6.3:
     resolution: {integrity: sha512-2P0p0pFGzHS5EMnhdxQi7aJN+iMheud0UhG4dlE1DLAlvL8JHjJJTX/CSm4JXwV0Ka5nGk3zC5mcb5bUQUxxMA==}
 
-  dayjs@1.11.13:
-    resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
-
   dayjs@1.11.20:
     resolution: {integrity: sha512-YbwwqR/uYpeoP4pu043q+LTDLFBLApUP6VxRihdfNTqu4ubqMlGDLd6ErXhEgsyvY0K6nCs7nggYumAN+9uEuQ==}
 
@@ -11632,15 +11620,6 @@ packages:
 
   debug@4.3.7:
     resolution: {integrity: sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
-  debug@4.4.0:
-    resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -18636,7 +18615,7 @@ snapshots:
 
   '@csstools/css-tokenizer@3.0.4': {}
 
-  '@cypress/code-coverage@3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@0.24.1))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)':
+  '@cypress/code-coverage@4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@0.24.1))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)':
     dependencies:
       '@babel/core': 7.29.7(supports-color@8.1.1)
       '@babel/preset-env': 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
@@ -18644,36 +18623,17 @@ snapshots:
       babel-loader: 10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@0.24.1))(webpack@5.104.1)
       chalk: 4.1.2
       cypress: 15.20.1
-      dayjs: 1.11.13
-      debug: 4.4.0(supports-color@8.1.1)
+      dayjs: 1.11.20
+      debug: 4.4.3(supports-color@8.1.1)
       execa: 4.1.0
       istanbul-lib-coverage: 3.2.2
       js-yaml: 4.3.2
-      nyc: 15.1.0(supports-color@8.1.1)
+      nyc: 18.0.0(supports-color@8.1.1)
       tinyglobby: 0.2.17
       webpack: 5.104.1(@swc/core@1.16.0)(clean-css@5.3.3)(cssnano@7.1.9(postcss@8.5.28))(csso@5.0.5)(esbuild@0.28.2)(html-minifier-terser@6.1.0)(postcss@8.5.28)(uglify-js@3.19.3)(webpack-cli@6.0.1)
     transitivePeerDependencies:
       - supports-color
     optional: true
-
-  '@cypress/code-coverage@3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)':
-    dependencies:
-      '@babel/core': 7.29.7(supports-color@8.1.1)
-      '@babel/preset-env': 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
-      '@cypress/webpack-preprocessor': 6.0.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(supports-color@8.1.1)(webpack@5.104.1)
-      babel-loader: 10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1)
-      chalk: 4.1.2
-      cypress: 15.20.1
-      dayjs: 1.11.13
-      debug: 4.4.0(supports-color@8.1.1)
-      execa: 4.1.0
-      istanbul-lib-coverage: 3.2.2
-      js-yaml: 4.3.2
-      nyc: 15.1.0(supports-color@8.1.1)
-      tinyglobby: 0.2.17
-      webpack: 5.104.1(@swc/core@1.16.0)(clean-css@5.3.3)(cssnano@7.1.9(postcss@8.5.26))(csso@5.0.5)(esbuild@0.28.2)(html-minifier-terser@6.1.0)(postcss@8.5.26)(uglify-js@3.19.3)(webpack-cli@6.0.1)
-    transitivePeerDependencies:
-      - supports-color
 
   '@cypress/code-coverage@4.0.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)':
     dependencies:
@@ -18693,7 +18653,6 @@ snapshots:
       webpack: 5.104.1(@swc/core@1.16.0)(clean-css@5.3.3)(cssnano@7.1.9(postcss@8.5.26))(csso@5.0.5)(esbuild@0.28.2)(html-minifier-terser@6.1.0)(postcss@8.5.26)(uglify-js@3.19.3)(webpack-cli@6.0.1)
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   '@cypress/grep@4.1.1(@babel/core@7.29.7(supports-color@8.1.1))(cypress@15.20.1)(supports-color@8.1.1)':
     dependencies:
@@ -24597,10 +24556,7 @@ snapshots:
 
   dateformat@4.6.3: {}
 
-  dayjs@1.11.13: {}
-
-  dayjs@1.11.20:
-    optional: true
+  dayjs@1.11.20: {}
 
   dayjs@1.11.22: {}
 
@@ -24619,12 +24575,6 @@ snapshots:
       supports-color: 8.1.1
 
   debug@4.3.7(supports-color@8.1.1):
-    dependencies:
-      ms: 2.1.3
-    optionalDependencies:
-      supports-color: 8.1.1
-
-  debug@4.4.0(supports-color@8.1.1):
     dependencies:
       ms: 2.1.3
     optionalDependencies:
@@ -27229,7 +27179,6 @@ snapshots:
       istanbul-lib-coverage: 3.2.2
       p-map: 3.0.0
       rimraf: 6.1.3
-    optional: true
 
   istanbul-lib-report@3.0.1:
     dependencies:
@@ -29744,7 +29693,6 @@ snapshots:
       yargs: 15.4.1
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   oauth-sign@0.9.0: {}
 
@@ -31587,7 +31535,6 @@ snapshots:
       rimraf: 6.1.3
       signal-exit: 3.0.7
       which: 2.0.2
-    optional: true
 
   spdx-correct@3.2.0:
     dependencies:
@@ -31963,7 +31910,6 @@ snapshots:
       '@istanbuljs/schema': 0.1.6
       glob: 13.0.6
       minimatch: 10.2.6
-    optional: true
 
   text-table@0.2.0: {}
 
