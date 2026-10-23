@@ -23,7 +23,7 @@
     "type-check": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@module-federation/enhanced": "^0.24.1",
+    "@module-federation/enhanced": "^2.0.0",
     "@rspack/core": "2.2.4",
     "webpack": "^5.104.1"
   },
@@ -33,7 +33,7 @@
     "webpack": { "optional": true }
   },
   "devDependencies": {
-    "@module-federation/enhanced": "^0.24.1",
+    "@module-federation/enhanced": "^2.0.0",
     "@odh-dashboard/eslint-config": "workspace:*",
     "@odh-dashboard/jest-config": "workspace:*",
     "@odh-dashboard/tsconfig": "workspace:*",

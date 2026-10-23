@@ -86,7 +86,7 @@
     "ws": "^8.21.0"
   },
   "devDependencies": {
-    "@module-federation/enhanced": "^0.24.1",
+    "@module-federation/enhanced": "^2.0.0",
     "@odh-dashboard/eslint-config": "workspace:*",
     "@rspack/cli": "2.1.10",
     "@rspack/core": "2.2.4",

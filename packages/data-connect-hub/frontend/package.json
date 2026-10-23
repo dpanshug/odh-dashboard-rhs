@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@odh-dashboard/app-config": "workspace:*",
-    "@module-federation/enhanced": "^0.24.1",
+    "@module-federation/enhanced": "^2.0.0",
     "@mui/material": "^7.3.4",
     "@rsdoctor/rspack-plugin": "^1.6.1",
     "@rspack/cli": "2.1.10",

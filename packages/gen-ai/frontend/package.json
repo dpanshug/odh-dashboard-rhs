@@ -49,7 +49,7 @@
     "@odh-dashboard/app-config": "workspace:*",
     "@odh-dashboard/cypress": "workspace:*",
     "@odh-dashboard/jest-config": "workspace:*",
-    "@module-federation/enhanced": "^0.24.1",
+    "@module-federation/enhanced": "^2.0.0",
     "@types/jest": "^29.5.14",
     "@types/react-dom": "^18",
     "@types/react-router-dom": "^5.3.3",

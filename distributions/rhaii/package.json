@@ -44,7 +44,7 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@module-federation/enhanced": "^0.24.1",
+    "@module-federation/enhanced": "^2.0.0",
     "@odh-dashboard/app-config": "workspace:*",
     "@odh-dashboard/eslint-config": "workspace:*",
     "@odh-dashboard/jest-config": "workspace:*",
