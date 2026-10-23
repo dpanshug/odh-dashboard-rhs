@@ -53,7 +53,7 @@ Renovate (`.github/renovate.json5`, self-hosted via `.github/workflows/renovate.
 | `renovate/go-digests` | Go pseudo-version bumps | human |
 | `renovate/major` | one PR per major update (30d npm / 14d Go cooldown) | human |
 
-Replacement PRs (package renames) and PatternFly/React majors are disabled; do them by hand. Issues are disabled on this repo, so there is no Dependency Dashboard.
+Replacement PRs (package renames), pnpm itself, React majors, `pnpm-workspace.yaml` overrides, and packages exact-pinned there (PatternFly, rspack, webpack, …) are disabled; upgrade those by hand. Issues are disabled on this repo, so there is no Dependency Dashboard.
 
 **Auto-merge** — `.github/workflows/renovate-auto-merge.yml` applies `lgtm` + `approved` (Tide then merges after CI) only when the PR is authored by `odh-dashboard-agent[bot]`, carries exactly one eligible tier label added by that app, and `.github/scripts/renovate-automerge-check.rb` — run from the base branch — confirms from the diff that only manifests/lockfiles changed, nothing under `/upstream/`, no deps added/removed, and every direct change matches the tier. Use `/hold` to stop an eligible PR.
 

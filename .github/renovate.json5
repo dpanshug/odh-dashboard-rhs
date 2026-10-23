@@ -217,18 +217,34 @@
       "enabled": false
     },
     {
+      // These packages are pinned to an EXACT version in the root
+      // pnpm-workspace.yaml `overrides` AND in many package.json files, and
+      // must move together (by hand, like the PatternFly 6.6.1 bump in #9500).
+      // Bumping only package.json leaves the override winning, so the PR
+      // claims 2.2.4 -> 2.2.8 while the lockfile still resolves 2.2.4 (seen in
+      // the fork rehearsal; the auto-merge check refused it). Range-style
+      // overrides (e.g. ws: '^8.21.0') don't have this problem and stay
+      // managed. Keep this list in sync with the exact pins in
+      // pnpm-workspace.yaml.
+      "description": "Exact-pinned root overrides: upgrade by hand (override + package.json together)",
+      "matchManagers": ["npm"],
+      "matchPackageNames": [
+        "/^@patternfly\\//",
+        "@openshift/dynamic-plugin-sdk-utils",
+        "webpack",
+        "@rspack/core",
+        "@rspack/cli",
+        "@types/minimatch"
+      ],
+      "enabled": false
+    },
+    {
       // pnpm itself is pinned in 3 coupled places (root packageManager,
       // prefetch/pnpm for hermetic Konflux builds, and the
       // `pnpm --version` check in ~20 Dockerfiles); see prefetch/pnpm/README.md.
       // A partial bump breaks image builds, so upgrade it by hand.
       "description": "pnpm upgrades are manual (packageManager + prefetch/pnpm + Dockerfiles move together)",
       "matchPackageNames": ["pnpm"],
-      "enabled": false
-    },
-    {
-      "description": "PatternFly major/minor: manual coordination (pnpm-workspace.yaml overrides pin the version)",
-      "matchPackageNames": ["/^@patternfly\\//"],
-      "matchUpdateTypes": ["major", "minor"],
       "enabled": false
     },
     {
