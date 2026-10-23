@@ -182,13 +182,22 @@ def check_go(base, head, files, max)
     new_req, new_other = parse_go_mod(blob(head, path) || raise(Ineligible, "#{path} was deleted"))
     raise Ineligible, "#{path}: non-require content changed (go/toolchain/replace/...)" if old_other != new_other
 
+    # `go mod tidy` legitimately adds, drops, and re-classifies `// indirect`
+    # requires (e.g. testify 1.12 no longer pulls in gopkg.in/yaml.v3). Their
+    # versions are fixed by go.sum and the direct requires, so they are not
+    # checked. A DIRECT require is different: it is code the module imports,
+    # so a module may become direct only if it was already required.
     old_direct = old_req.reject { |_, (_, indirect)| indirect }
     new_direct = new_req.reject { |_, (_, indirect)| indirect }
-    raise Ineligible, "#{path}: direct requires added/removed" if old_direct.keys.sort != new_direct.keys.sort
+    gone = old_direct.keys - new_req.keys
+    raise Ineligible, "#{path}: direct requires removed: #{gone.join(', ')}" unless gone.empty?
 
-    # Indirect requires are owned by `go mod tidy` and follow the direct ones.
-    old_direct.each do |mod, (from, _)|
-      to = new_direct[mod][0]
+    added = new_direct.keys - old_req.keys
+    raise Ineligible, "#{path}: direct requires added: #{added.join(', ')}" unless added.empty?
+
+    (old_direct.keys | new_direct.keys).each do |mod|
+      from = old_req[mod][0]
+      to = new_req[mod][0]
       changes << [mod, from, to] if from != to
     end
   end

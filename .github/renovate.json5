@@ -207,6 +207,25 @@
 
     // ── Policy exclusions (enabled:false, so they cannot add labels) ────────
     {
+      // Root pnpm-workspace.yaml `overrides` are hand-maintained pins (CVE
+      // fixes, PatternFly/MUI alignment, transitive selectors like
+      // `a>b`). Bumping them silently changes what every package resolves.
+      // Found in the fork rehearsal: npm-patch/npm-minor picked up 12 of them.
+      "description": "Never touch pnpm-workspace.yaml overrides; they are maintained by hand",
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["pnpm-workspace.overrides"],
+      "enabled": false
+    },
+    {
+      // pnpm itself is pinned in 3 coupled places (root packageManager,
+      // prefetch/pnpm for hermetic Konflux builds, and the
+      // `pnpm --version` check in ~20 Dockerfiles); see prefetch/pnpm/README.md.
+      // A partial bump breaks image builds, so upgrade it by hand.
+      "description": "pnpm upgrades are manual (packageManager + prefetch/pnpm + Dockerfiles move together)",
+      "matchPackageNames": ["pnpm"],
+      "enabled": false
+    },
+    {
       "description": "PatternFly major/minor: manual coordination (pnpm-workspace.yaml overrides pin the version)",
       "matchPackageNames": ["/^@patternfly\\//"],
       "matchUpdateTypes": ["major", "minor"],
@@ -222,6 +241,16 @@
       "description": "autox-core is managed via upstream sync (RHOAIENG-59135)",
       "matchManagers": ["gomod"],
       "matchFileNames": ["packages/autox-core/**"],
+      "enabled": false
+    },
+    {
+      // v0.3.17 renamed its module path to github.com/kubeflow/hub/pkg/openapi,
+      // so the in-place bump cannot build (go mod tidy fails). Migrating to the
+      // new path is a code change; in the rehearsal this one failure broke the
+      // whole go-patch group.
+      "description": "kubeflow/model-registry openapi moved to kubeflow/hub; migrate by hand",
+      "matchManagers": ["gomod"],
+      "matchPackageNames": ["github.com/kubeflow/model-registry/pkg/openapi"],
       "enabled": false
     }
 
