@@ -1310,8 +1310,8 @@ importers:
         specifier: ^3.14.7
         version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@0.24.1))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/grep':
-        specifier: ^4.1.1
-        version: 4.1.1(@babel/core@7.29.7(supports-color@8.1.1))(cypress@15.20.1)(supports-color@8.1.1)
+        specifier: ^7.0.0
+        version: 7.0.0(@babel/core@7.29.7(supports-color@8.1.1))(cypress@15.20.1)(supports-color@8.1.1)
       '@jsdevtools/coverage-istanbul-loader':
         specifier: ^3.0.5
         version: 3.0.5(supports-color@8.1.1)
@@ -2716,8 +2716,8 @@ importers:
         specifier: ^3.12.34
         version: 3.14.7(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(@rspack/core@2.2.4(@module-federation/runtime-tools@2.8.2))(webpack@5.104.1))(cypress@15.20.1)(supports-color@8.1.1)(webpack@5.104.1)
       '@cypress/grep':
-        specifier: ^4.1.0
-        version: 4.1.1(@babel/core@7.29.7(supports-color@8.1.1))(cypress@15.20.1)(supports-color@8.1.1)
+        specifier: ^7.0.0
+        version: 7.0.0(@babel/core@7.29.7(supports-color@8.1.1))(cypress@15.20.1)(supports-color@8.1.1)
       '@odh-dashboard/app-config':
         specifier: workspace:*
         version: link:../app-config
@@ -6825,10 +6825,10 @@ packages:
       cypress: '>=15.10.0'
       webpack: 5.104.1
 
-  '@cypress/grep@4.1.1':
-    resolution: {integrity: sha512-KDM5kOJIQwdn7BGrmejCT34XCMLt8Bahd8h6RlRTYahs2gdc1wHq6XnrqlasF72GzHw0yAzCaH042hRkqu1gFw==}
+  '@cypress/grep@7.0.0':
+    resolution: {integrity: sha512-pk1EJaIzt8xQZYA47xvwA2mA+ajGd73mDSIdYeAxYRuyifLVZGhTf1FpuTktjPYGarkdLjWKzDSijGfJnn6lEA==}
     peerDependencies:
-      cypress: '>=10'
+      cypress: '>=15.10.0'
 
   '@cypress/request@4.0.1':
     resolution: {integrity: sha512-y20e+e6dFYkOUUJLVUZTsJRuTiXZaUQ32WD+R/ux/HBybbTx4ge7cNINcua0pU8+SNkKuRbOF12mBmzuzM8n5w==}
@@ -18695,7 +18695,7 @@ snapshots:
       - supports-color
     optional: true
 
-  '@cypress/grep@4.1.1(@babel/core@7.29.7(supports-color@8.1.1))(cypress@15.20.1)(supports-color@8.1.1)':
+  '@cypress/grep@7.0.0(@babel/core@7.29.7(supports-color@8.1.1))(cypress@15.20.1)(supports-color@8.1.1)':
     dependencies:
       cypress: 15.20.1
       debug: 4.4.3(supports-color@8.1.1)
